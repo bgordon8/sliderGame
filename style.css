@@ -22,8 +22,22 @@
   background-color: crimson;
 }
 .slider {
-  height: 15px;
+  height: 25px;
   width: 100px;
   background-color: blueviolet;
   position: relative;
+}
+.animate {
+  animation: slide 4s infinite linear;
+}
+@keyframes slide {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: 400px;
+  }
+  100% {
+    left: 0px;
+  }
 }
