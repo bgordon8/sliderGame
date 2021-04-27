@@ -22,10 +22,14 @@
   background-color: crimson;
 }
 .slider {
-  height: 25px;
+  visibility: hidden;
+  height: 20px;
   width: 100px;
   background-color: blueviolet;
   position: relative;
+}
+#slider1 {
+  visibility: visible;
 }
 .animate {
   animation: slide 4s infinite linear;
